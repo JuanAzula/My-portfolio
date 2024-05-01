@@ -38,6 +38,7 @@ body {
 .ui-text {
     margin: 0;
     user-select: none;
+    width: 100%;
 }
 
 .ui-close-btn {
@@ -61,4 +62,14 @@ body {
     display: flex;
     flex-direction: column;
     color: rgb(238, 238, 238);
+}
+
+@media screen and (max-width: 600px) {
+    .note {
+        width: 100%;
+    }
+
+    .ui-text {
+        font-size: 1.2rem;
+    }
 }
