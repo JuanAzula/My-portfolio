@@ -57,6 +57,7 @@ body {
     position: absolute;
     left: 5%;
     top: 1vh;
+    width: 50%;
     display: flex;
     flex-direction: column;
     color: rgb(238, 238, 238);
